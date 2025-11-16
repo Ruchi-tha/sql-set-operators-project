@@ -3,6 +3,14 @@ Set Operations:
 
 Set Operators are used to combine two or more select queries into single result Set.
 
+Rule:
+-----
+
+- No of columns in both select queries should be same.
+- Data types of mentioned columns should be same in both queries.
+- Result set column names are same as first select query,if the second query columns are different also.
+- Order by should be at the last statement for both the queries.
+
 Types:
 ======
 
@@ -78,3 +86,4 @@ Minus:
 ------
 
 - If we want to identity missing records/mismatch records/deleted records.
+
